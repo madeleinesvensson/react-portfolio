@@ -5,7 +5,7 @@ const Greeting = styled.span`
   color: orange;
   font-size: 40px;
   font-weight: 500;
-  padding: 10px;
+  padding: 0px 10px 0px 0px;
 `;
 const AboutText = styled.p`
   font-size: 25px;
