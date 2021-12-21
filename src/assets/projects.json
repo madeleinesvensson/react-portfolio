@@ -3,7 +3,7 @@
     "project_id": 1,
     "title": "Travel news site",
     "image": "",
-    "netlify": "https://app.netlify.com/sites/frosty-leavitt-f89bf5/overview",
+    "netlify": "https://frosty-leavitt-f89bf5.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-news-site",
     "description": "A responsive travel news site built with HTML and CSS.",
     "tech": ["HTML", "CSS"]
@@ -152,10 +152,10 @@
       "HTML",
       "CSS",
       "JavaScript ES6",
-      "API",
-      "Pair programming",
       "Redux",
-      "React"
+      "React",
+      "API",
+      "Pair programming"
     ]
   },
   {

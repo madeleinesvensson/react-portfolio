@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import data from "../assets/projects";
+import data from "../assets/articles";
 
 const SectionWrapper = styled.div`
   display: flex;
@@ -45,32 +45,17 @@ const Tags = styled.div`
   margin: 10px;
 `;
 
-export const Projects = () => {
+export const Article = () => {
   return (
     <SectionWrapper>
       <Heading>Projects</Heading>
-      {data.map((item) => (
-        <ProjectContainter key={item.project_id}>
-          <a href={item.netlify} rel="noopener noreferrer" target="_blank">
-            <img src={item.image} alt={item.title} />
-            <Title>{item.title}</Title>
-            <Description>{item.description}</Description>
+      {data.map((article) => (
+        <ProjectContainter key={article.articles_id}>
+          <a href={article.url} rel="noopener noreferrer" target="_blank">
+            <img src={article.image} alt={article.title} />
+            <Title>{article.title}</Title>
+            <Description>{article.description}</Description>
           </a>
-          <a href={item.github} rel="noopener noreferrer" target="_blank">
-            <Button type="button">&lt;Code&gt;</Button>
-          </a>
-          <div>
-            {item.netlify2 && (
-              <a href={item.netlify2} rel="noopener noreferrer" target="_blank">
-                <Button type="button">API</Button>
-              </a>
-            )}
-          </div>
-          <div>
-            {item.tech.map((tag) => (
-              <Tags key={tag}>{tag}</Tags>
-            ))}
-          </div>
         </ProjectContainter>
       ))}
     </SectionWrapper>
