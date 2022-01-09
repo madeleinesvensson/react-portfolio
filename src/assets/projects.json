@@ -6,7 +6,8 @@
     "netlify": "https://frosty-leavitt-f89bf5.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-news-site",
     "description": "A responsive travel news site built with HTML and CSS.",
-    "tech": ["HTML", "CSS"]
+    "tech": ["HTML", "CSS"],
+    "tags": "Technigo"
   },
   {
     "project_id": 2,
@@ -15,7 +16,8 @@
     "netlify": "https://blissful-saha-f2f5ae.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-business-site",
     "description": "A responsive business site made for a company, Rainy Nights Publishing.",
-    "tech": ["HTML", "CSS", "JavaScript ES6"]
+    "tech": ["HTML", "CSS", "JavaScript ES6"],
+    "tags": "Technigo"
   },
   {
     "project_id": 3,
@@ -24,7 +26,8 @@
     "netlify": "https://hopeful-curie-9450c4.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-chatbot",
     "description": "A chatbot that asks you what mood you are in and then suggests songs based on the answer.",
-    "tech": ["HTML", "CSS", "JavaScript ES6", "Pair programming"]
+    "tech": ["HTML", "CSS", "JavaScript ES6", "Pair programming"],
+    "tags": "Technigo"
   },
   {
     "project_id": 4,
@@ -33,7 +36,8 @@
     "netlify": "https://hopeful-colden-55ed82.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-guess-who",
     "description": "The classic Guess Who? Game but this time with Harry Potter characters.",
-    "tech": ["HTML", "CSS", "JavaScript ES6"]
+    "tech": ["HTML", "CSS", "JavaScript ES6"],
+    "tags": "Technigo"
   },
   {
     "project_id": 5,
@@ -42,7 +46,8 @@
     "netlify": "https://coziest-weather-app.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-weather-app",
     "description": "Responsive web site using HTML, CSS and JavaScript ES6 to forcast the weather around the world using an weather API.",
-    "tech": ["HTML", "CSS", "JavaScript ES6", "API", "Mob programming"]
+    "tech": ["HTML", "CSS", "JavaScript ES6", "API", "Mob programming"],
+    "tags": "Technigo"
   },
   {
     "project_id": 6,
@@ -51,7 +56,8 @@
     "netlify": "https://sad-jennings-8c6d22.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-github-tracker",
     "description": "Web application using APIs to fetch information about the projects in the Technigo Bootcamp.",
-    "tech": ["HTML", "CSS", "JavaScript ES6", "API"]
+    "tech": ["HTML", "CSS", "JavaScript ES6", "API"],
+    "tags": "Technigo"
   },
   {
     "project_id": 7,
@@ -60,7 +66,8 @@
     "netlify": "https://ecstatic-hawking-987d29.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-music-releases",
     "description": "A project about music releases that is using a set of data stored in a JSON file.",
-    "tech": ["HTML", "CSS", "JavaScript ES6", "React", "Pair programming"]
+    "tech": ["HTML", "CSS", "JavaScript ES6", "React", "Pair programming"],
+    "tags": "Technigo"
   },
   {
     "project_id": 8,
@@ -69,7 +76,8 @@
     "netlify": "https://optimistic-boyd-e7372a.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-survey",
     "description": "A fake survey built for Citymail with React and useState to collect and store the answers.",
-    "tech": ["HTML", "CSS", "JavaScript ES6", "React"]
+    "tech": ["HTML", "CSS", "JavaScript ES6", "React"],
+    "tags": "Technigo"
   },
   {
     "project_id": 9,
@@ -78,7 +86,8 @@
     "netlify": "https://dreamy-pare-2a9171.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-happy-thoughts",
     "description": "Like the title suggest, this is Twitter, but for Happy Thoughts! Uses POST requests to send the new thought to the API.",
-    "tech": ["HTML", "CSS", "JavaScript ES6", "API", "React"]
+    "tech": ["HTML", "CSS", "JavaScript ES6", "API", "React"],
+    "tags": "Technigo"
   },
   {
     "project_id": 10,
@@ -87,7 +96,8 @@
     "netlify": "https://gallant-hugle-08a34e.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-movies",
     "description": "Movies fetched from different APIs. You can see the popular movies or use the randomizer to let the site choose for you.",
-    "tech": ["HTML", "CSS", "JavaScript ES6", "API", "Pair programming"]
+    "tech": ["HTML", "CSS", "JavaScript ES6", "API", "Pair programming"],
+    "tags": "Technigo"
   },
   {
     "project_id": 11,
@@ -103,7 +113,8 @@
       "React",
       "Mob programming",
       "Redux"
-    ]
+    ],
+    "tags": "Technigo"
   },
   {
     "project_id": 12,
@@ -112,7 +123,8 @@
     "netlify": "https://autumntodo.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-todos",
     "description": "A classic to do list where you check off what you have done. You can also delete them and see all of the finished ones.",
-    "tech": ["HTML", "CSS", "JavaScript ES6", "Redux", "React"]
+    "tech": ["HTML", "CSS", "JavaScript ES6", "Redux", "React"],
+    "tags": "Technigo"
   },
   {
     "project_id": 13,
@@ -129,7 +141,8 @@
       "Pair programming",
       "Redux",
       "React"
-    ]
+    ],
+    "tags": "Technigo"
   },
   {
     "project_id": 14,
@@ -138,7 +151,8 @@
     "netlify": "",
     "github": "https://github.com/madeleinesvensson/project-react-native-app",
     "description": "A stepTracker built with React Native and the pedometer built in the phone to count the steps.",
-    "tech": ["JavaScript ES6", "React Native", "React Native Stylesheet"]
+    "tech": ["JavaScript ES6", "React Native", "React Native Stylesheet"],
+    "tags": "Technigo"
   },
   {
     "project_id": 15,
@@ -156,7 +170,8 @@
       "React",
       "API",
       "Pair programming"
-    ]
+    ],
+    "tags": "Technigo"
   },
   {
     "project_id": 16,
@@ -165,6 +180,75 @@
     "netlify": "https://swiftdatamongodb.herokuapp.com",
     "github": "https://github.com/madeleinesvensson/project-mongo-api",
     "description": "An API built using Mongo DB to set up the data. Filter data based on album or how long the songs are.",
-    "tech": ["Mongo DB"]
+    "tech": ["Mongo DB"],
+    "tags": "Technigo"
+  },
+  {
+    "project_id": 17,
+    "title": "Happy thoguhts API",
+    "image": "",
+    "netlify": "https://my-happy-thoughts13.netlify.app/",
+    "netlify2": "https://my-happy-thoughts.herokuapp.com/thoughts/",
+    "github": "https://github.com/madeleinesvensson/project-happy-thoughts-api",
+    "description": "An API that uses POST, GET and DELETE to collect and display thoughts. This is then used in a new and improved Happy Thoguhts project to render the thoughts to the frontend",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript ES6",
+      "React",
+      "API",
+      "Mongo DB",
+      "Mongoose"
+    ],
+    "tags": "Technigo"
+  },
+  {
+    "project_id": 18,
+    "title": "Authentication",
+    "image": "",
+    "netlify": "https://my-happy-thoughts13.netlify.app/",
+    "netlify2": "https://my-happy-thoughts.herokuapp.com/thoughts/",
+    "github": "https://github.com/madeleinesvensson/project-happy-thoughts-api",
+    "description": "An API that uses POST, GET and DELETE to collect and display thoughts. This is then used in a new and improved Happy Thoguhts project to render the thoughts to the frontend",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript ES6",
+      "React",
+      "API",
+      "Mongo DB",
+      "Mongoose"
+    ],
+    "tags": "Technigo"
+  },
+  {
+    "project_id": 18,
+    "title": "Tech Talent Marketplace",
+    "image": "",
+    "netlify": "https://my-happy-thoughts13.netlify.app/",
+    "netlify2": "https://my-happy-thoughts.herokuapp.com/thoughts/",
+    "github": "https://github.com/madeleinesvensson/project-happy-thoughts-api",
+    "description": "An API that uses POST, GET and DELETE to collect and display thoughts. This is then used in a new and improved Happy Thoguhts project to render the thoughts to the frontend",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript ES6",
+      "React",
+      "API",
+      "Mongo DB",
+      "Mongoose"
+    ],
+    "tags": "Technigo"
+  },
+  {
+    "project_id": 19,
+    "title": "Todo version 2",
+    "image": "",
+    "netlify": "https://my-happy-thoughts13.netlify.app/",
+    "netlify2": "https://my-happy-thoughts.herokuapp.com/thoughts/",
+    "github": "https://github.com/madeleinesvensson/project-happy-thoughts-api",
+    "description": "A todo list to store you todos. The project is done with origial Redux. You can make new todos, delete, delete all, check one or check all. The styling is done with Theme-ui",
+    "tech": ["HTML", "Theme-ui", "JavaScript ES6", "React", "Original Redux"],
+    "tags": "Own"
   }
 ]

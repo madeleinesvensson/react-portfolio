@@ -51,6 +51,7 @@ export const Projects = () => {
       <Heading>Projects</Heading>
       {data.map((item) => (
         <ProjectContainter key={item.project_id}>
+          <p>{item.tag}</p>
           <a href={item.netlify} rel="noopener noreferrer" target="_blank">
             <img src={item.image} alt={item.title} />
             <Title>{item.title}</Title>
