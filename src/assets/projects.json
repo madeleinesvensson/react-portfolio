@@ -2,7 +2,7 @@
   {
     "project_id": 1,
     "title": "Travel news site",
-    "image": "",
+    "image": "https://i.ibb.co/6WW7y9p/news-site.png",
     "netlify": "https://frosty-leavitt-f89bf5.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-news-site",
     "description": "A responsive travel news site built with HTML and CSS.",
@@ -12,7 +12,7 @@
   {
     "project_id": 2,
     "title": "Rainy Nights Business site",
-    "image": "",
+    "image": "https://i.ibb.co/HgrZKnm/business-site.png",
     "netlify": "https://blissful-saha-f2f5ae.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-business-site",
     "description": "A responsive business site made for a company, Rainy Nights Publishing.",
@@ -22,7 +22,7 @@
   {
     "project_id": 3,
     "title": "The Beatbot",
-    "image": "",
+    "image": "https://i.ibb.co/vL2FRP6/chatbot.png",
     "netlify": "https://hopeful-curie-9450c4.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-chatbot",
     "description": "A chatbot that asks you what mood you are in and then suggests songs based on the answer.",
@@ -32,7 +32,7 @@
   {
     "project_id": 4,
     "title": "Guess Who? Harry Potter Edition",
-    "image": "",
+    "image": "https://i.ibb.co/KG41g20/guess-who.png",
     "netlify": "https://hopeful-colden-55ed82.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-guess-who",
     "description": "The classic Guess Who? Game but this time with Harry Potter characters.",
@@ -42,7 +42,7 @@
   {
     "project_id": 5,
     "title": "Weather App",
-    "image": "",
+    "image": "https://i.ibb.co/7tFYz1X/weather-app.png",
     "netlify": "https://coziest-weather-app.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-weather-app",
     "description": "Responsive web site using HTML, CSS and JavaScript ES6 to forcast the weather around the world using an weather API.",
@@ -52,7 +52,7 @@
   {
     "project_id": 6,
     "title": "Github Tracker",
-    "image": "",
+    "image": "https://i.ibb.co/GTStRCY/github-tracker.png",
     "netlify": "https://sad-jennings-8c6d22.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-github-tracker",
     "description": "Web application using APIs to fetch information about the projects in the Technigo Bootcamp.",
@@ -62,7 +62,7 @@
   {
     "project_id": 7,
     "title": "Music Releases",
-    "image": "",
+    "image": "https://i.ibb.co/cbMKVCF/music-project.png",
     "netlify": "https://ecstatic-hawking-987d29.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-music-releases",
     "description": "A project about music releases that is using a set of data stored in a JSON file.",
@@ -72,7 +72,7 @@
   {
     "project_id": 8,
     "title": "Citymail survey",
-    "image": "",
+    "image": "https://i.ibb.co/jDTjh58/project-survey.png",
     "netlify": "https://optimistic-boyd-e7372a.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-survey",
     "description": "A fake survey built for Citymail with React and useState to collect and store the answers.",
@@ -82,7 +82,7 @@
   {
     "project_id": 9,
     "title": "Like Twitter, but for Happy Thoughts",
-    "image": "",
+    "image": "https://i.ibb.co/xsZhs2h/happy-thoughts.png",
     "netlify": "https://dreamy-pare-2a9171.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-happy-thoughts",
     "description": "Like the title suggest, this is Twitter, but for Happy Thoughts! Uses POST requests to send the new thought to the API.",
@@ -92,7 +92,7 @@
   {
     "project_id": 10,
     "title": "Movies",
-    "image": "",
+    "image": "https://i.ibb.co/x2hfDBk/movie-project.png",
     "netlify": "https://gallant-hugle-08a34e.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-movies",
     "description": "Movies fetched from different APIs. You can see the popular movies or use the randomizer to let the site choose for you.",
@@ -102,7 +102,7 @@
   {
     "project_id": 11,
     "title": "Foodie quiz",
-    "image": "",
+    "image": "https://i.ibb.co/wYtLrJp/Ska-rmavbild-2022-01-28-kl-15-23-20.png",
     "netlify": "https://foodie-quiz.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-redux-quiz",
     "description": "A quiz about food using Redux to store the answers and than displaying them at the end showing how many you got correct.",
@@ -119,7 +119,7 @@
   {
     "project_id": 12,
     "title": "To do list",
-    "image": "",
+    "image": "https://i.ibb.co/HFfCh00/todo.png",
     "netlify": "https://autumntodo.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-todos",
     "description": "A classic to do list where you check off what you have done. You can also delete them and see all of the finished ones.",
@@ -129,7 +129,7 @@
   {
     "project_id": 13,
     "title": "The Magic Labyrinth Game",
-    "image": "",
+    "image": "https://i.ibb.co/KxGpsyv/labyrinth.png",
     "netlify": "https://the-magic-labyrinth-game.netlify.app",
     "github": "https://github.com/madeleinesvensson/project-labyrinth",
     "description": "The classic text based labyrinth game, now with visuals to guide you through the labyrinth.",
@@ -157,20 +157,12 @@
   {
     "project_id": 15,
     "title": "Taylor Swift Music data with Express",
-    "image": "",
+    "image": "https://i.ibb.co/BTfC4Cv/Ska-rmavbild-2022-01-28-kl-15-23-57.png",
     "netlify": "https://taylorswiftdata.netlify.app",
     "netlify2": "https://taylor-swift-music.herokuapp.com",
     "github": "https://github.com/madeleinesvensson/project-express-api",
     "description": "An API with path and query params to list different sets of data. Filter out a specific album or year.",
-    "tech": [
-      "HTML",
-      "CSS",
-      "JavaScript ES6",
-      "Redux",
-      "React",
-      "API",
-      "Pair programming"
-    ],
+    "tech": ["HTML", "CSS", "JavaScript ES6", "React", "API"],
     "tags": "Technigo"
   },
   {
@@ -180,13 +172,13 @@
     "netlify": "https://swiftdatamongodb.herokuapp.com",
     "github": "https://github.com/madeleinesvensson/project-mongo-api",
     "description": "An API built using Mongo DB to set up the data. Filter data based on album or how long the songs are.",
-    "tech": ["Mongo DB"],
+    "tech": ["Mongo DB", "Mongoose"],
     "tags": "Technigo"
   },
   {
     "project_id": 17,
     "title": "Happy thoguhts API",
-    "image": "",
+    "image": "https://i.ibb.co/y5M5GCz/Ska-rmavbild-2022-01-28-kl-15-24-47.png",
     "netlify": "https://my-happy-thoughts13.netlify.app/",
     "netlify2": "https://my-happy-thoughts.herokuapp.com/thoughts/",
     "github": "https://github.com/madeleinesvensson/project-happy-thoughts-api",
@@ -205,24 +197,24 @@
   {
     "project_id": 18,
     "title": "Authentication",
-    "image": "",
+    "image": "https://i.ibb.co/g3PYSH3/Ska-rmavbild-2022-01-28-kl-15-26-00.png",
     "netlify": "https://my-happy-thoughts13.netlify.app/",
     "netlify2": "https://my-happy-thoughts.herokuapp.com/thoughts/",
     "github": "https://github.com/madeleinesvensson/project-happy-thoughts-api",
-    "description": "An API that uses POST, GET and DELETE to collect and display thoughts. This is then used in a new and improved Happy Thoguhts project to render the thoughts to the frontend",
+    "description": "A project that only displays the riddles in Riddlemaster if you are logged in as a user with an authentication token. It's using Redux to dispatch the token and all the riddles to upgrade you to the next level.",
     "tech": [
       "HTML",
       "CSS",
       "JavaScript ES6",
       "React",
-      "API",
+      "Redux",
       "Mongo DB",
       "Mongoose"
     ],
     "tags": "Technigo"
   },
   {
-    "project_id": 18,
+    "project_id": 19,
     "title": "Tech Talent Marketplace",
     "image": "",
     "netlify": "https://my-happy-thoughts13.netlify.app/",
@@ -241,7 +233,7 @@
     "tags": "Technigo"
   },
   {
-    "project_id": 19,
+    "project_id": 20,
     "title": "Todo version 2",
     "image": "",
     "netlify": "https://my-happy-thoughts13.netlify.app/",

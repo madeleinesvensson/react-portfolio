@@ -2,16 +2,16 @@
   {
     "article_id": 1,
     "title": "My journey to become a frontend developer",
-    "description": "10 years ago I had my firks encounter with code. I was in a classroom in hight school, where we had a six months course in web design, where we made websites using HTML and CSS. I was fascinated, learning about and writing code...",
+    "description": "10 years ago I had my first encounter with code. I was in a classroom in hight school, where we had a six months course in web design, where we made websites using HTML and CSS. I was fascinated, learning about and writing code...",
     "published": "November 2021",
-    "image": "",
+    "image": "https://i.ibb.co/Kxs4mnf/article1.jpg",
     "url": "https://medium.com/@madeleinesvensson13/my-journey-to-become-a-frontend-developer-fa5813238718"
   },
   {
     "article_id": 2,
     "title": "Reflections after building my very first app",
     "description": "15 weeks of JavaScript, React and Redux in the Technigo Bootcamp we are trying out React Native, building an app. This sounded at the beginning like a straight forward situation...",
-    "image": "",
+    "image": "https://i.ibb.co/X8f5bqS/proud-taylor-swift.gif",
     "url": "https://medium.com/@madeleinesvensson13/reflections-after-building-my-very-first-app-9380ac48ebb0"
   }
 ]

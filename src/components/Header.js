@@ -1,13 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import { Navigation } from "./Navigation";
 
 const SectionWrapper = styled.div`
   display: block;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 50px 200px;
-  background-color: pink;
+  padding: 20px 20px;
+  background-color: #004e64;
   box-sizing: border-box;
   height: 300px;
 `;
@@ -19,17 +20,20 @@ const Name = styled.p`
   font-size: 20px;
   font-family: "Montserrat";
   font-weight: 100;
+  color: white;
 `;
 
 const FirstHeading = styled.h1`
   font-size: 40px;
   margin: 0px;
   padding: 0px;
+  color: white;
 `;
 const SecondHeading = styled.h1`
   font-size: 30px;
   margin: 0px;
   padding: 0px;
+  color: white;
 `;
 
 const Ampersand = styled.p`
@@ -50,6 +54,9 @@ export const Header = () => {
           <SecondHeading>UX designer</SecondHeading>
         </div>
       </TextWrapper>
+      <div>
+        <Navigation />
+      </div>
     </SectionWrapper>
   );
 };

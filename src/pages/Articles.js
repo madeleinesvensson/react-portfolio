@@ -7,16 +7,21 @@ const SectionWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   background-color: white;
-  padding: 50px 200px;
+  padding: 20px;
 `;
 const Heading = styled.h2`
-  background-color: orange;
-  color: white;
+  color: #004e64;
   font-size: 30px;
-  padding: 10px;
+  padding: 0px;
+  margin: 10px;
+  text-align: center;
 `;
 const ProjectContainter = styled.div`
-  border: 1px solid black;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 95%;
+  max-width: 500px;
+  margin: 10px 0px;
+  padding-bottom: 10px;
   a {
     text-decoration: none;
   }
@@ -24,35 +29,31 @@ const ProjectContainter = styled.div`
 const Title = styled.h3`
   font-size: 30px;
   color: #353535;
-`;
-const Description = styled.p`
-  font-size: 24px;
-  color: #353535;
+  text-align: center;
+  margin: 0px;
   font-weight: 200;
 `;
-const Button = styled.button`
-  border-radius: 10px;
-  padding: 10px;
-  width: 150px;
-  color: white;
+const Description = styled.p`
   font-size: 20px;
-  background-color: blue;
+  color: #353535;
+  font-weight: 200;
+  padding: 5px;
+  margin: 5px 0px;
 `;
-const Tags = styled.div`
-  background-color: orange;
-  color: white;
-  padding: 10px;
-  margin: 10px;
+const ArticleImage = styled.img`
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 `;
 
 export const Article = () => {
   return (
     <SectionWrapper>
-      <Heading>Projects</Heading>
+      <Heading>Articles</Heading>
       {data.map((article) => (
         <ProjectContainter key={article.articles_id}>
           <a href={article.url} rel="noopener noreferrer" target="_blank">
-            <img src={article.image} alt={article.title} />
+            <ArticleImage src={article.image} alt={article.title} />
             <Title>{article.title}</Title>
             <Description>{article.description}</Description>
           </a>

@@ -5,7 +5,7 @@ const SectionWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   background-color: white;
-  padding: 50px 200px;
+  padding: 20px 20px;
 `;
 const Heading = styled.h2`
   background-color: orange;
@@ -16,6 +16,7 @@ const Heading = styled.h2`
 const TechText = styled.p`
   color: #353535;
   font-size: 25px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 `;
 
 export const Tech = () => {
