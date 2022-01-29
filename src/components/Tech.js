@@ -5,18 +5,20 @@ const SectionWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   background-color: white;
-  padding: 20px 20px;
+  padding: 20px;
 `;
 const Heading = styled.h2`
-  background-color: orange;
-  color: white;
+  color: #004e64;
   font-size: 30px;
-  padding: 10px;
+  padding: 0px;
+  margin: 10px;
+  text-align: center;
 `;
 const TechText = styled.p`
   color: #353535;
-  font-size: 25px;
+  font-size: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px;
 `;
 
 export const Tech = () => {

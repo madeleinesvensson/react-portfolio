@@ -6,6 +6,8 @@ import { NotFound } from "pages/NotFound";
 import { Projects } from "pages/Projects";
 import { Article } from "pages/Articles";
 import { Start } from "pages/Start";
+import { Contact } from "pages/Contact";
+import { Footer } from "components/Footer";
 
 export const App = () => {
   return (
@@ -18,8 +20,10 @@ export const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/articles" element={<Article />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

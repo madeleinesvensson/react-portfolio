@@ -78,6 +78,7 @@ export const Navigation = () => {
         <StyledLink to="/about">Madeleine</StyledLink>
         <StyledLink to="/projects">Projects</StyledLink>
         <StyledLink to="/articles">Articles</StyledLink>
+        <StyledLink to="/contact">Contact</StyledLink>
       </PopUpNav>
     </>
   );
