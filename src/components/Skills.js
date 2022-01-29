@@ -22,14 +22,14 @@ const SkillsAlign = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 `;
 const ProjectContainter = styled.div`
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   max-width: 500px;
-  margin: 10px 0px;
+  margin: 10px 10px;
   padding-bottom: 10px;
   width: 300px;
   padding: 0px 20px;

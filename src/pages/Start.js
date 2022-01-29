@@ -14,19 +14,23 @@ const AboutText = styled.p`
   padding: 0px;
   margin: 0px;
   color: #353535;
+  max-width: 500px;
+  margin-right: 30px;
 `;
 
 const SectionWrapper = styled.div`
   display: flex;
   align-items: center;
   padding: 20px 20px;
+  justify-content: center;
 `;
 
 const ProfileImage = styled.img`
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   object-fit: cover;
+  margin-left: 30px;
 `;
 
 export const Start = () => {

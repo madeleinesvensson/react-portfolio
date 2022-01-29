@@ -9,13 +9,7 @@ const SectionWrapper = styled.div`
   background-color: white;
   padding: 20px;
 `;
-const Heading = styled.h2`
-  color: #004e64;
-  font-size: 30px;
-  padding: 0px;
-  margin: 10px;
-  text-align: center;
-`;
+
 const ProjectContainter = styled.div`
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: 95%;
@@ -41,11 +35,7 @@ const Description = styled.p`
   padding: 5px;
   margin: 5px 0px;
 `;
-const ArticleImage = styled.img`
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-`;
+
 export const About = () => {
   return (
     <>

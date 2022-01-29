@@ -21,7 +21,7 @@ const ProjectContainter = styled.div`
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: 95%;
   max-width: 500px;
-  margin: 10px 0px;
+  margin: 10px 10px;
   padding-bottom: 10px;
   a {
     text-decoration: none;
@@ -33,6 +33,12 @@ const ProjectImage = styled.img`
   height: 200px;
   object-fit: cover;
 `;
+const ProjectWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
 
 const ProjectTag = styled.p`
   margin: 5px 5px 5px 0px;
@@ -40,7 +46,7 @@ const ProjectTag = styled.p`
   font-weight: 500;
   position: absolute;
   color: white;
-  background: #6c464f;
+
   padding: 5px 15px 5px 5px;
 `;
 const Title = styled.h3`
@@ -80,43 +86,61 @@ const Tagwrapper = styled.div`
   padding-left: 10px;
 `;
 const Tags = styled.div`
-  background-color: #004e64;
   color: white;
   padding: 5px;
   margin: 2px;
   width: fit-content;
   font-size: 10px;
+  background-color: #004e64;
 `;
 
 export const Projects = () => {
+  const colorSwitcher = (tags) => {
+    switch (tags) {
+      case "Technigo":
+        return "#a799b7";
+      case "Own":
+        return "#6c464f";
+      default:
+        return "white";
+    }
+  };
   return (
     <SectionWrapper>
       <Heading>Projects</Heading>
-      {data.map((item) => (
-        <ProjectContainter key={item.project_id}>
-          <ProjectTag>{item.tags}</ProjectTag>
-          <a href={item.netlify} rel="noopener noreferrer" target="_blank">
-            <ProjectImage src={item.image} alt={item.title} />
-            <Title>{item.title}</Title>
-            <Description>{item.description}</Description>
-          </a>
-          <Buttonwrapper>
-            <a href={item.github} rel="noopener noreferrer" target="_blank">
-              <Button type="button">&lt;Code&gt;</Button>
+      <ProjectWrapper>
+        {data.map((item) => (
+          <ProjectContainter key={item.project_id}>
+            <ProjectTag style={{ backgroundColor: colorSwitcher(item.tags) }}>
+              {item.tags}
+            </ProjectTag>
+            <a href={item.netlify} rel="noopener noreferrer" target="_blank">
+              <ProjectImage src={item.image} alt={item.title} />
+              <Title>{item.title}</Title>
+              <Description>{item.description}</Description>
             </a>
-            {item.netlify2 && (
-              <a href={item.netlify2} rel="noopener noreferrer" target="_blank">
-                <Button type="button">API</Button>
+            <Buttonwrapper>
+              <a href={item.github} rel="noopener noreferrer" target="_blank">
+                <Button type="button">&lt;Code&gt;</Button>
               </a>
-            )}
-          </Buttonwrapper>
-          <Tagwrapper>
-            {item.tech.map((tag) => (
-              <Tags key={tag}>{tag}</Tags>
-            ))}
-          </Tagwrapper>
-        </ProjectContainter>
-      ))}
+              {item.netlify2 && (
+                <a
+                  href={item.netlify2}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Button type="button">API</Button>
+                </a>
+              )}
+            </Buttonwrapper>
+            <Tagwrapper>
+              {item.tech.map((tag) => (
+                <Tags key={tag}>{tag}</Tags>
+              ))}
+            </Tagwrapper>
+          </ProjectContainter>
+        ))}
+      </ProjectWrapper>
     </SectionWrapper>
   );
 };
