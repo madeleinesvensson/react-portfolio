@@ -38,7 +38,7 @@ const PopUpNav = styled.nav`
     font-weight: bold;
     background: black;
     justify-content: center;
-    background-color: #289d8e;
+    background-color: #F4A261;
     @media (min-width: 768px) {
       width: 250px;
     }

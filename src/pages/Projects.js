@@ -1,14 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import data from "../assets/projects";
-
-const SectionWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: white;
-  padding: 20px;
-`;
+import GithubIcon from "../assets/GithubIcon.svg"
+import { SectionWrapper } from "components/UI/SectionWrapper";
+import { ProjectDivider } from "components/UI/Divider";
+import {ProjectContainter} from "components/UI/ProjectContainer"
 const Heading = styled.h2`
   color: #004e64;
   font-size: 30px;
@@ -17,16 +13,7 @@ const Heading = styled.h2`
   text-align: center;
 `;
 
-const ProjectContainter = styled.div`
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  width: 95%;
-  max-width: 500px;
-  margin: 10px 10px;
-  padding-bottom: 10px;
-  a {
-    text-decoration: none;
-  }
-`;
+
 
 const ProjectImage = styled.img`
   width: 100%;
@@ -64,20 +51,22 @@ const Description = styled.p`
   margin: 5px 0px;
 `;
 
-const Buttonwrapper = styled.div`
-  display: flex;
-  justify-content: space-around;
-`;
 const Button = styled.button`
-  border-radius: 5px;
+  border-radius: 50%;
   border: none;
-  padding: 5px;
-  width: 70px;
+  width: 32px;
+  height: 32px;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   background-color: #c89f9c;
-  margin: 0px 0px 10px 0px;
+  margin: 2px 0px 0px 3px;
+
 `;
+const Icon = styled.img`
+width: 35px;
+height: 35px;
+margin: 0px;
+`
 const Tagwrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -90,9 +79,15 @@ const Tags = styled.div`
   padding: 5px;
   margin: 2px;
   width: fit-content;
-  font-size: 10px;
+  font-size: 13px;
+  height: 20px;
   background-color: #004e64;
+  display: flex;
+  justify-content:center;
+  align-items:center;
 `;
+
+
 
 export const Projects = () => {
   const colorSwitcher = (tags) => {
@@ -110,6 +105,7 @@ export const Projects = () => {
       <Heading>Projects</Heading>
       <ProjectWrapper>
         {data.map((item) => (
+          <>
           <ProjectContainter key={item.project_id}>
             <ProjectTag style={{ backgroundColor: colorSwitcher(item.tags) }}>
               {item.tags}
@@ -119,9 +115,14 @@ export const Projects = () => {
               <Title>{item.title}</Title>
               <Description>{item.description}</Description>
             </a>
-            <Buttonwrapper>
+            
+            <Tagwrapper>
+              {item.tech.map((tag) => (
+                <Tags key={tag}>{tag}</Tags>
+              ))}
+
               <a href={item.github} rel="noopener noreferrer" target="_blank">
-                <Button type="button">&lt;Code&gt;</Button>
+                <Icon src={GithubIcon} alt="github"/>
               </a>
               {item.netlify2 && (
                 <a
@@ -132,14 +133,14 @@ export const Projects = () => {
                   <Button type="button">API</Button>
                 </a>
               )}
-            </Buttonwrapper>
-            <Tagwrapper>
-              {item.tech.map((tag) => (
-                <Tags key={tag}>{tag}</Tags>
-              ))}
+
             </Tagwrapper>
           </ProjectContainter>
-        ))}
+        <ProjectDivider></ProjectDivider>
+        </>
+        )
+        
+        )}
       </ProjectWrapper>
     </SectionWrapper>
   );

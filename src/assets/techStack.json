@@ -1,0 +1,15 @@
+[
+  { "tag": "JavaScript" },
+  { "tag": "HTML" },
+  { "tag": "CSS" },
+  { "tag": "Flexbox" },
+  { "tag": "React" },
+  { "tag": "Accessability" },
+  { "tag": "Redux" },
+  { "tag": "TypeScript" },
+  { "tag": "API's" },
+  { "tag": "Mob-programming" },
+  { "tag": "Pair-programming" },
+  { "tag": "Figma" },
+  { "tag": "Mongo DB" }
+]

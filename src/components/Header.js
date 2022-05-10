@@ -8,7 +8,7 @@ const SectionWrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   padding: 20px 20px;
-  background-color: #004e64;
+  background-color: #4F6D7A;
   box-sizing: border-box;
   height: 250px;
 `;
@@ -47,7 +47,7 @@ const Ampersand = styled.p`
   font-size: 100px;
   padding: 0px 20px 0px 0px;
   margin: 0px;
-  color: orange;
+  color: #F4A261;
 `;
 const AlignNav = styled.div`
   display: flex;

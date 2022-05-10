@@ -1,14 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import data from "../assets/articles";
+import { SectionWrapper } from "components/UI/SectionWrapper";
+import { ProjectDivider } from "components/UI/Divider";
 
-const SectionWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: white;
-  padding: 20px;
-`;
 const Heading = styled.h2`
   color: #004e64;
   font-size: 30px;
@@ -51,6 +46,7 @@ export const Article = () => {
     <SectionWrapper>
       <Heading>Articles</Heading>
       {data.map((article) => (
+        <>
         <ProjectContainter key={article.articles_id}>
           <a href={article.url} rel="noopener noreferrer" target="_blank">
             <ArticleImage src={article.image} alt={article.title} />
@@ -58,6 +54,8 @@ export const Article = () => {
             <Description>{article.description}</Description>
           </a>
         </ProjectContainter>
+        <ProjectDivider></ProjectDivider>
+        </>
       ))}
     </SectionWrapper>
   );

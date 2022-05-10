@@ -1,14 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import data from "../assets/skills";
+import { SectionWrapper } from "./UI/SectionWrapper";
+import { ProjectContainter } from "./UI/ProjectContainer";
 
-const SectionWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: white;
-  padding: 20px 20px;
-`;
 const Heading = styled.h2`
   color: #004e64;
   font-size: 30px;
@@ -25,18 +20,7 @@ const SkillsAlign = styled.div`
   align-items: flex-start;
   width: 100%;
 `;
-const ProjectContainter = styled.div`
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
-  max-width: 500px;
-  margin: 10px 10px;
-  padding-bottom: 10px;
-  width: 300px;
-  padding: 0px 20px;
-  a {
-    text-decoration: none;
-  }
-`;
 const Title = styled.h3`
   font-size: 20px;
   color: #353535;

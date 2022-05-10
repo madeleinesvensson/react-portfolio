@@ -1,25 +1,11 @@
 import { Skills } from "components/Skills";
 import React from "react";
 import styled from "styled-components";
+import { SectionWrapper } from "components/UI/SectionWrapper";
 
-const SectionWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: white;
-  padding: 20px;
-`;
-
-const ProjectContainter = styled.div`
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  width: 95%;
-  max-width: 500px;
-  margin: 10px 0px;
-  padding-bottom: 10px;
-  a {
-    text-decoration: none;
-  }
-`;
+const AboutWrapper = styled.div`
+background: white;
+`
 
 const Title = styled.h3`
   font-size: 30px;
@@ -32,17 +18,28 @@ const Description = styled.p`
   font-size: 20px;
   color: #353535;
   font-weight: 200;
-  padding: 5px;
+  padding: 15px;
   margin: 5px 0px;
+  
 `;
+
+const AboutNr = styled.span`
+font-size:50px;
+padding-right: 10px;
+margin: 0;
+border-top: 3px solid gray;
+`
+
 
 export const About = () => {
   return (
     <>
       <SectionWrapper>
-        <ProjectContainter>
+        <AboutWrapper>
           <Title>About me</Title>
-          <Description>
+
+          <Description>  
+            <AboutNr>01</AboutNr>
             My name is Madeleine and I am a frontend developer with a bootcamp
             and a two year UX design diploma in my backpack. I code and build
             applications and websites where I use my interest and knowledge of
@@ -54,6 +51,7 @@ export const About = () => {
             the future.
           </Description>
           <Description>
+          <AboutNr>02</AboutNr>
             Having the conversation with myself, I realized that my current
             workplace was not the right fit for me. I was not built to do the
             job I had and I was constantly frustrated, overworked and injured or
@@ -62,6 +60,7 @@ export const About = () => {
             and healthy with loads of energy.
           </Description>
           <Description>
+          <AboutNr>03</AboutNr>
             The turning point and my way back to my old self was realizing what
             I wanted to do five years from now and that was to become an UX
             designer. Even if that is not where I ended up it’s where I
@@ -75,7 +74,7 @@ export const About = () => {
             diagnosis.
           </Description>
           <Description>
-            {" "}
+          <AboutNr>04</AboutNr>
             I have found a way back to myself I can now put my focus on the
             things that I enjoy and one of those things is coding. Coding has
             always been something I thought was a cool thing to know. Now that I
@@ -85,7 +84,7 @@ export const About = () => {
             your mark on the world. Isn’t that all we want, to feel like we made
             a difference for someone?
           </Description>
-        </ProjectContainter>
+        </AboutWrapper>
       </SectionWrapper>
       <Skills />
     </>

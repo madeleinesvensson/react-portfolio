@@ -6,7 +6,7 @@ const FooterWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   height: 70px;
-  background-color: #004e64;
+  background-color:#4F6D7A;
 `;
 const Title = styled.h3`
   font-size: 20px;
